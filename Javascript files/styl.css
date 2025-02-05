@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif;
+    text-align: center; 
+   background-image:url(olive.jpg);}
+.rn{
+   background-color: rgb(218, 198, 121);
+  
+}
+.menu { width: 50%; margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px; border: 1px solid #ccc; padding: 200px; border-radius: 10px;
+background-color: antiquewhite; }
+.menu-item {  justify-content: space-between;
+   flex: 1 0 200px; margin: 10px 0; }
+button { background: grey; color: white; border: none; padding: 5px 10px; cursor: pointer; }
+#cart { margin-top: 20px; padding: 10px; border: 1px solid #ccc; }
+.remove-button { background: red; color: white; border: none; padding: 5px 10px; cursor: pointer; }
